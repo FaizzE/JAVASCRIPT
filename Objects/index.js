@@ -9,8 +9,6 @@
 //     draw: function() {
 //         console.log('draw');
 //     }
-
-
 // };
  
 // Factory Function 
