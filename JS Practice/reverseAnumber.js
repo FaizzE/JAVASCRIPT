@@ -4,8 +4,6 @@ function reverseNum(x){
 
 }
 // console.log(reverseNum(12345));
-
-
 // Approach 2
 
 function revNum(a){
