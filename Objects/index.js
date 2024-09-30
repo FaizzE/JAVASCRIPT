@@ -1,15 +1,15 @@
-// console.log('Objecs');
+console.log('Objecs');
 
-// // Objects Creation
+// Objects Creation
 
-// let rectangle = {
-//     length: 1,
-//     breadth: 2,
+let rectangle = {
+    length: 1,
+    breadth: 2,
 
-//     draw: function() {
-//         console.log('draw');
-//     }
-// };
+    draw: function() {
+        console.log('draw');
+    }
+};
  
 // Factory Function 
 function createRectangle(len,bre) {
@@ -23,22 +23,22 @@ function createRectangle(len,bre) {
     };
 }
 
-// let rectangleobj1 = createRectangle(4,5);
-// let rectangle2 = createRectangle(2,3);
-// let rectangle3 = createRectangle(7,9);
+let rectangleobj1 = createRectangle(4,5);
+let rectangle2 = createRectangle(2,3);
+let rectangle3 = createRectangle(7,9);
 
-// let rectangle1  = {
-//     length: 1,
-//     breadth: 2,
+let rectangle1  = {
+    length: 1,
+    breadth: 2,
 
-//     draw: function() {
-//         console.log('draw');
-//     }
+    draw: function() {
+        console.log('draw');
+    }
 
 
-// };
+};
 
-// console.log(rectangle.length);
+console.log(rectangle.length);
 
 
 
