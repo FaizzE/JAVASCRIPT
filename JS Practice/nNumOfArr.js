@@ -6,5 +6,4 @@ function nNumOfArr(arr,n) {
     }
     return newArr;
 }
-
 console.log(nNumOfArr([1,2,3,4,5,6],12));
