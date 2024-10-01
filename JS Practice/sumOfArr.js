@@ -5,7 +5,6 @@ let sum = 0;
 array.forEach(function(ele){
     sum += ele;
 })
-
 console.log(sum);
 
 
