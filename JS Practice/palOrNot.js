@@ -3,6 +3,4 @@ function strPalOrNot(str) {
     if(str === reversed) return true;
     else return false;
 }
-
-
 console.log(strPalOrNot("loop"));
