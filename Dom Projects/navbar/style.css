@@ -7,13 +7,17 @@
 
 .navbar {
     width: 100%;
-    height: 70px;
+    height: 80px;
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0; /* Ensures the navbar sticks to the top */
+    z-index: 1000; /* Keeps it above other content */
 }
+
 .logo {
     font-size: 1.5rem;
     font-weight: bolder;
@@ -48,4 +52,19 @@
 
 .login-btn:hover {
     color: black;
+}
+.hero {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 90vh;
+}
+.main {
+    background-color: salmon;
+    width: 100%;
+    height: 100vh;
+}
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 35vh;
 }
