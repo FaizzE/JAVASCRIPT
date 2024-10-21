@@ -1,6 +1,5 @@
 console.log('Functions -> ')
 
-
 // run();
 function run() {
     console.log('running');
@@ -15,14 +14,12 @@ let work = function walk() {
     console.log('work');
 };
 
-
 // Anonymous function assignment
 let stand = function() {
     console.log('working');
 };
 
 // work();
-
 let jump = stand;
 
 // jump();
@@ -48,7 +45,6 @@ function summ(...args){
 }
 
 // sum();
-
 function addn(num,val,...args){ // rest parameter
     console.log(args);
 }
@@ -69,7 +65,6 @@ function interest(p,r=6,y=9){
 
 // Getter -> for access properties
 // Setter -> for change or mutate properties
-
 let person = {
     fName : 'Faizul',
     lName : 'Islam',
