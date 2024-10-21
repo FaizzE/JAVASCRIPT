@@ -87,7 +87,6 @@ console.log(sliced);
 /* ======= Spread Operator =======*/
 
 // Spread Operator => ...
-
 let first  = [1,2,3];
 let second = [4,5,6];
 
