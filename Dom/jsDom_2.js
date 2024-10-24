@@ -1,16 +1,16 @@
-// function eventFunction() {
-//     console.log('I have clicked on the document');
-// }
+function eventFunction() {
+    console.log('I have clicked on the document');
+}
 
-// document.addEventListener('click', eventFunction);
+document.addEventListener('click', eventFunction);
 
-// document.removeEventListener('cliclk', eventFunction);
+document.removeEventListener('cliclk', eventFunction);
 
-// const content = document.querySelector('#wrapper');
+const content = document.querySelector('#wrapper');
 
-// content.addEventListener('click', function(event) {
-//     console.log(event);
-// })
+content.addEventListener('click', function(event) {
+    console.log(event);
+})
 
 let myDiv = document.createElement('div');
 
